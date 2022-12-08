@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>com</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		.a{
+			background: black;
+			height: 600px;
+			width: 1350px;
+		}
+		.a1{
+			background: black;
+			height: 200px;
+			width: 1350px;
+
+		}
+		.a2{
+			background: white;
+			height: 400px;
+			width: 1350px;
+		}
+		img{
+			height: 250px;
+			width: 1350px;
+		}
+		#s{
+			 color: orange;
+			margin-left: 650px;
+			margin-top: 55px;
+		}
+		#h{
+		   margin-left: 625px;
+		   margin-top: 15px;
+		}
+	
+		.b{
+			height: 200px;
+			width: 250px;
+			float: left;
+			margin-top: 40px;
+			margin-left: 120px;
+		}
+		.b1{
+			height: 200px;
+			width: 250px;
+			float: left;
+			margin-top: 40px;
+			margin-left: 25px;
+
+		}
+		.b2{
+			height: 200px;
+			width: 250px;
+			float: left;
+			margin-top: 40px;
+			margin-left: 25px;
+
+		}
+		.b3{
+			height: 200px;
+			width: 250px;
+			float: left;
+			margin-top: 40px;
+			margin-left: 25px;
+
+		}
+		#pen{
+			height: 30px;
+			margin-left: 100px;
+			margin-top: 30px;
+			color: white;
+			background: orange;
+            font-size: 30px;
+            border-radius: 300px;			
+
+		}
+		#object{
+			height: 30px;
+			margin-left: 100px;
+			margin-top: 30px;
+			color: white;
+			background: orange;
+			font-size: 30px;
+		  border-radius: 300px;			
+
+		}
+		#build{
+			height: 30px;
+			margin-left: 100px;
+			margin-top: 30px;
+			color: white;
+			background: orange;
+			font-size: 30px;
+            border-radius:300px;			
+
+		}
+		#route{
+			height: 30px;
+			margin-left: 90px;
+			margin-top: 30px;
+			color: white;
+			background: orange;
+			font-size: 30px;
+            border-radius: 200px;			
+
+		}
+		#plan{
+			margin-left: 70px;
+			margin-top: 20px;
+		}
+		#de{
+			margin-left: 70px;
+			margin-top: 20px;
+		}
+		#bu{
+			margin-left: 70px;
+			margin-top: 20px;
+		}
+		#fi{
+			margin-left: 80px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<div class="a1"><img src="2.jpg"></div>
+		<div class="a2">
+		<p id ="s">STEP BY STEP</id></p>
+		<p id="h">HOW ITS WORKING</p>
+       <!-- <p id="c"><i class="fa-solid fa-pen-ruler"></i><br><br>PLANNING<br><br>lorem ipsum dolar sit amet consectetur adipising elit,maecenas gravida cursus </p> -->
+       <div class="b"><i id="pen" class="fa-solid fa-pen-ruler"></i><br><p id="plan">PLANNING<p>lorem ipsum dolar sit amet,conscutur adipiscing elit,maecenas gravida cursus.</p></div>
+       <div class="b1"><i id="object" class="fa-regular fa-object-ungroup"></i><br><p id="de">DESIGN<p>lorem ipsum dolar sit amet,conscutur adipiscing elit,maecenas gravida cursus.</p></div>
+       <div class="b2"><i id="build" class="fa-solid fa-building-un"></i><br><p id="bu">BUILDING<p>lorem ipsum dolar sit amet,conscutur adipiscing elit,maecenas gravida cursus.</p></div>
+       <div class="b3"><i id="route"class="fa-solid fa-route"></i><br><p id="fi">FINISH<p>lorem ipsum dolar sit amet,conscutur adipiscing elit,maecenas gravida cursus.</p></div>
+		</div>
+	</div>
+
+</body>
+</html>
